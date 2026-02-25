@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { useTemplateRef, h, ref, computed, watch, resolveComponent } from 'vue'
 import { upperFirst } from 'scule'
 import type { TableColumn } from '@nuxt/ui'
 import { useFetch } from '@vueuse/core'

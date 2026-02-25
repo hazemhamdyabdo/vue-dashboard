@@ -3,6 +3,8 @@ import vue from '@vitejs/plugin-vue'
 import vueRouter from 'vue-router/vite'
 import vueLayouts from 'vite-plugin-vue-layouts'
 import ui from '@nuxt/ui/vite'
+import appConfig from './app.config'
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,13 +14,6 @@ export default defineConfig({
     }),
     vueLayouts(),
     vue(),
-    ui({
-      ui: {
-        colors: {
-          primary: 'green',
-          neutral: 'zinc'
-        }
-      }
-    })
+    ui(appConfig)
   ]
 })

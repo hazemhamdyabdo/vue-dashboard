@@ -1,5 +1,7 @@
 import './assets/css/main.css'
 
+import { createHead } from '@unhead/vue/client'
+
 import { createApp } from 'vue'
 import type { RouteRecordRaw } from 'vue-router'
 import { createRouter, createWebHistory } from 'vue-router'
@@ -9,6 +11,7 @@ import ui from '@nuxt/ui/vue-plugin'
 
 import App from './App.vue'
 
+const head = createHead()
 const app = createApp(App)
 
 const router = createRouter({
@@ -18,7 +21,7 @@ const router = createRouter({
 
 app.use(router)
 app.use(ui)
-
+app.use(head)
 app.mount('#app')
 
 // This will update routes at runtime without reloading the page
