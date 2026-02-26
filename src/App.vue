@@ -1,6 +1,6 @@
 <template>
   <Suspense>
-    <UApp :theme="{ base: 'bg-red-500' }">
+    <UApp>
       <RouterView />
     </UApp>
   </Suspense>
