@@ -75,6 +75,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/dashboard/home/components/hero/HeroToolbar': RouteRecordInfo<
+      '/dashboard/home/components/hero/HeroToolbar',
+      '/dashboard/home/components/hero/HeroToolbar',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/dashboard/home/components/suggestions/SuggestionCard': RouteRecordInfo<
       '/dashboard/home/components/suggestions/SuggestionCard',
       '/dashboard/home/components/suggestions/SuggestionCard',
@@ -141,6 +148,12 @@ declare module 'vue-router/auto-routes' {
     'src/features/dashboard/home/components/hero/HeroSection.vue': {
       routes:
         | '/dashboard/home/components/hero/HeroSection'
+      views:
+        | never
+    }
+    'src/features/dashboard/home/components/hero/HeroToolbar.vue': {
+      routes:
+        | '/dashboard/home/components/hero/HeroToolbar'
       views:
         | never
     }

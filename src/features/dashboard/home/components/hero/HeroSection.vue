@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HeroToolbar from "./HeroToolbar.vue";
+import HeroAvatar from "./HeroAvatar.vue";
+</script>
 
 <template>
   <div>
-    <h1>Hero Section</h1>
+    <HeroToolbar />
+    <HeroAvatar />
   </div>
 </template>
