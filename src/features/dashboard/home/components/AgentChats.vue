@@ -62,7 +62,7 @@ const recentChats = [
               'bg-neutral-700/60 text-white': chat.active,
             }"
           >
-            <p class="text-sm font-semibold">{{ chat.title }}</p>
+            <p class="text-xs font-medium">{{ chat.title }}</p>
           </UListItem>
         </UList>
       </section>
