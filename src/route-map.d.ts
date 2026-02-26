@@ -40,37 +40,51 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/dashboard/home/components/HomeChart': RouteRecordInfo<
-      '/dashboard/home/components/HomeChart',
-      '/dashboard/home/components/HomeChart',
+    '/dashboard/home/components/AgentChats': RouteRecordInfo<
+      '/dashboard/home/components/AgentChats',
+      '/dashboard/home/components/AgentChats',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/dashboard/home/components/HomeDateRangePicker': RouteRecordInfo<
-      '/dashboard/home/components/HomeDateRangePicker',
-      '/dashboard/home/components/HomeDateRangePicker',
+    '/dashboard/home/components/composer/ComposerToolbar': RouteRecordInfo<
+      '/dashboard/home/components/composer/ComposerToolbar',
+      '/dashboard/home/components/composer/ComposerToolbar',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/dashboard/home/components/HomePeriodSelect': RouteRecordInfo<
-      '/dashboard/home/components/HomePeriodSelect',
-      '/dashboard/home/components/HomePeriodSelect',
+    '/dashboard/home/components/composer/MessageComposer': RouteRecordInfo<
+      '/dashboard/home/components/composer/MessageComposer',
+      '/dashboard/home/components/composer/MessageComposer',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/dashboard/home/components/HomeSales': RouteRecordInfo<
-      '/dashboard/home/components/HomeSales',
-      '/dashboard/home/components/HomeSales',
+    '/dashboard/home/components/hero/HeroAvatar': RouteRecordInfo<
+      '/dashboard/home/components/hero/HeroAvatar',
+      '/dashboard/home/components/hero/HeroAvatar',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/dashboard/home/components/HomeStats': RouteRecordInfo<
-      '/dashboard/home/components/HomeStats',
-      '/dashboard/home/components/HomeStats',
+    '/dashboard/home/components/hero/HeroSection': RouteRecordInfo<
+      '/dashboard/home/components/hero/HeroSection',
+      '/dashboard/home/components/hero/HeroSection',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/dashboard/home/components/suggestions/SuggestionCard': RouteRecordInfo<
+      '/dashboard/home/components/suggestions/SuggestionCard',
+      '/dashboard/home/components/suggestions/SuggestionCard',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/dashboard/home/components/suggestions/SuggestionGrid': RouteRecordInfo<
+      '/dashboard/home/components/suggestions/SuggestionGrid',
+      '/dashboard/home/components/suggestions/SuggestionGrid',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -100,33 +114,45 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'src/features/dashboard/home/components/HomeChart.vue': {
+    'src/features/dashboard/home/components/AgentChats.vue': {
       routes:
-        | '/dashboard/home/components/HomeChart'
+        | '/dashboard/home/components/AgentChats'
       views:
         | never
     }
-    'src/features/dashboard/home/components/HomeDateRangePicker.vue': {
+    'src/features/dashboard/home/components/composer/ComposerToolbar.vue': {
       routes:
-        | '/dashboard/home/components/HomeDateRangePicker'
+        | '/dashboard/home/components/composer/ComposerToolbar'
       views:
         | never
     }
-    'src/features/dashboard/home/components/HomePeriodSelect.vue': {
+    'src/features/dashboard/home/components/composer/MessageComposer.vue': {
       routes:
-        | '/dashboard/home/components/HomePeriodSelect'
+        | '/dashboard/home/components/composer/MessageComposer'
       views:
         | never
     }
-    'src/features/dashboard/home/components/HomeSales.vue': {
+    'src/features/dashboard/home/components/hero/HeroAvatar.vue': {
       routes:
-        | '/dashboard/home/components/HomeSales'
+        | '/dashboard/home/components/hero/HeroAvatar'
       views:
         | never
     }
-    'src/features/dashboard/home/components/HomeStats.vue': {
+    'src/features/dashboard/home/components/hero/HeroSection.vue': {
       routes:
-        | '/dashboard/home/components/HomeStats'
+        | '/dashboard/home/components/hero/HeroSection'
+      views:
+        | never
+    }
+    'src/features/dashboard/home/components/suggestions/SuggestionCard.vue': {
+      routes:
+        | '/dashboard/home/components/suggestions/SuggestionCard'
+      views:
+        | never
+    }
+    'src/features/dashboard/home/components/suggestions/SuggestionGrid.vue': {
+      routes:
+        | '/dashboard/home/components/suggestions/SuggestionGrid'
       views:
         | never
     }
