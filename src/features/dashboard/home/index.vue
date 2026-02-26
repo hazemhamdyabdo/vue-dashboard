@@ -1,9 +1,12 @@
 <script setup lang="ts">
+definePage({
+  path: '/'
+})
 import { ref, shallowRef } from 'vue'
 import { sub } from 'date-fns'
 import type { DropdownMenuItem } from '@nuxt/ui'
 import { useDashboard } from '@composables/useDashboard'
-import type { Period, Range } from '../types'
+import type { Period, Range } from '@types'
 
 const { isNotificationsSlideoverOpen } = useDashboard()
 

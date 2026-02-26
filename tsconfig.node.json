@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ES2022",
     "lib": ["ES2023"],
     "module": "ESNext",
@@ -20,7 +21,15 @@
 
     /* Paths */
     "paths": {
-      "#build/ui": ["./node_modules/.nuxt-ui/ui"]
+      "#build/ui": ["./node_modules/.nuxt-ui/ui"],
+      "@types/*": ["src/types/*"],
+      "@utils/*": ["src/utils/*"],
+      "@assets/*": ["src/assets/*"],
+      "@store/*": ["src/store/*"],
+      "@composables/*": ["src/composables/*"],
+      "@features/*": ["src/features/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@components/*": ["src/components/*"],
     }
   },
   "include": ["vite.config.ts"]

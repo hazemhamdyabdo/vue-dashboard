@@ -1,9 +1,7 @@
 import { NuxtUIOptions } from "@nuxt/ui/vite";
-export default<NuxtUIOptions>{
+export default <NuxtUIOptions>{
   theme: {
-    preset: "static",
-    colors: ["primary", "zinc", "red", "yellow", "green", "success","error"],
-
+    colors: ["primary", "zinc", "red", "yellow", "green", "success", "error"],
   },
   // colorMode: false,
   autoImport: {

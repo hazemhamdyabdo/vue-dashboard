@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePage({
+  meta: { layout: 'auth' },
+
+})
 import * as z from 'zod'
 import type { FormSubmitEvent, AuthFormField } from '@nuxt/ui'
 

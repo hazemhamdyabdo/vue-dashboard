@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "rootDir": ".",
     "target": "ES2020",
     "useDefineForClassFields": true,
@@ -24,13 +25,16 @@
     /* Paths */
     "paths": {
       "#build/ui/*": ["./node_modules/.nuxt-ui/ui/*"],
-      "@components/*": ["./src/components/*"],
-      "@layouts/*": ["./src/layouts/*"],
-      "@features/*": ["./src/features/*"],
-      "@composables/*": ["./src/composables/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@assets/*": ["./src/assets/*"],
-      "@store/*": ["./src/store/*"],
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@features/*": ["src/features/*"],
+      "@composables/*": ["src/composables/*"],
+      "@composables": ["src/composables/index.ts"],
+      "@types/*": ["src/types/*"],
+      "@types": ["src/types/index.ts"],
+      "@utils/*": ["src/utils/*"],
+      "@assets/*": ["src/assets/*"],
+      "@store/*": ["src/store/*"],
     },
     "types": [
       "vite-plugin-vue-layouts/client"
