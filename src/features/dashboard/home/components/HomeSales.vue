@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { h, resolveComponent, ref, watch } from 'vue'
 import type { TableColumn } from '@nuxt/ui'
-import { randomInt, randomFrom } from '../../utils'
-import type { Period, Range, Sale } from '../../types'
+import { randomInt, randomFrom } from '@utils/index'
+import type { Period, Range, Sale } from '@types'
 
 const props = defineProps<{
   period: Period

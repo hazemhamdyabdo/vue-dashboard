@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { DateFormatter, getLocalTimeZone, CalendarDate, today } from '@internationalized/date'
-import type { Range } from '../../types'
+import type { Range } from '@types'
 
 const df = new DateFormatter('en-US', {
   dateStyle: 'medium'

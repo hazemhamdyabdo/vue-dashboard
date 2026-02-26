@@ -40,6 +40,41 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/dashboard/home/components/HomeChart': RouteRecordInfo<
+      '/dashboard/home/components/HomeChart',
+      '/dashboard/home/components/HomeChart',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/dashboard/home/components/HomeDateRangePicker': RouteRecordInfo<
+      '/dashboard/home/components/HomeDateRangePicker',
+      '/dashboard/home/components/HomeDateRangePicker',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/dashboard/home/components/HomePeriodSelect': RouteRecordInfo<
+      '/dashboard/home/components/HomePeriodSelect',
+      '/dashboard/home/components/HomePeriodSelect',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/dashboard/home/components/HomeSales': RouteRecordInfo<
+      '/dashboard/home/components/HomeSales',
+      '/dashboard/home/components/HomeSales',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/dashboard/home/components/HomeStats': RouteRecordInfo<
+      '/dashboard/home/components/HomeStats',
+      '/dashboard/home/components/HomeStats',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
   }
 
   /**
@@ -62,6 +97,36 @@ declare module 'vue-router/auto-routes' {
     'src/features/dashboard/home/index.vue': {
       routes:
         | '/dashboard/home/'
+      views:
+        | never
+    }
+    'src/features/dashboard/home/components/HomeChart.vue': {
+      routes:
+        | '/dashboard/home/components/HomeChart'
+      views:
+        | never
+    }
+    'src/features/dashboard/home/components/HomeDateRangePicker.vue': {
+      routes:
+        | '/dashboard/home/components/HomeDateRangePicker'
+      views:
+        | never
+    }
+    'src/features/dashboard/home/components/HomePeriodSelect.vue': {
+      routes:
+        | '/dashboard/home/components/HomePeriodSelect'
+      views:
+        | never
+    }
+    'src/features/dashboard/home/components/HomeSales.vue': {
+      routes:
+        | '/dashboard/home/components/HomeSales'
+      views:
+        | never
+    }
+    'src/features/dashboard/home/components/HomeStats.vue': {
+      routes:
+        | '/dashboard/home/components/HomeStats'
       views:
         | never
     }
