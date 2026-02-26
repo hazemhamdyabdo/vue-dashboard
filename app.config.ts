@@ -1,21 +1,28 @@
-import type { NuxtUiConfig } from '@nuxt/ui'
-export default <NuxtUiConfig>{
+import { NuxtUIOptions } from "@nuxt/ui/vite";
+export default<NuxtUIOptions>{
+  theme: {
+    preset: "static",
+    colors: ["primary", "zinc", "red", "yellow", "green", "success","error"],
+
+  },
+  // colorMode: false,
   autoImport: {
     imports: [
-      'vue',
-      'vue-router',
-      'pinia',
+      "vue",
+      "vue-router",
+      "pinia",
       {
-        '@/store': ['useStore'],
-        '@unhead/vue': ['useHead'],
+        "@/store": ["useStore"],
+        "@unhead/vue": ["useHead"],
       },
     ],
-    dts: 'auto-imports.d.ts',
+    dts: "auto-imports.d.ts",
     vueTemplate: true,
   },
   colors: {
-    primary: 'green',
-    neutral: 'zinc'
+    primary: "primary",
+    neutral: "zinc",
+    error: "red",
+    warning: "yellow",
   },
-
-}
+};

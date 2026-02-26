@@ -33,56 +33,18 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/customers': RouteRecordInfo<
-      '/customers',
-      '/customers',
+    '/test/': RouteRecordInfo<
+      '/test/',
+      '/test',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/inbox': RouteRecordInfo<
-      '/inbox',
-      '/inbox',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/settings': RouteRecordInfo<
-      '/settings',
-      '/settings',
-      Record<never, never>,
-      Record<never, never>,
-      | '/settings/'
-      | '/settings/members'
-      | '/settings/notifications'
-      | '/settings/security'
-    >,
-    '/settings/': RouteRecordInfo<
-      '/settings/',
-      '/settings',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/settings/members': RouteRecordInfo<
-      '/settings/members',
-      '/settings/members',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/settings/notifications': RouteRecordInfo<
-      '/settings/notifications',
-      '/settings/notifications',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/settings/security': RouteRecordInfo<
-      '/settings/security',
-      '/settings/security',
-      Record<never, never>,
-      Record<never, never>,
+    '/test/[id]': RouteRecordInfo<
+      '/test/[id]',
+      '/test/:id',
+      { id: ParamValue<true> },
+      { id: ParamValue<false> },
       | never
     >,
   }
@@ -104,49 +66,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'src/pages/customers.vue': {
+    'src/pages/test/index.vue': {
       routes:
-        | '/customers'
+        | '/test/'
       views:
         | never
     }
-    'src/pages/inbox.vue': {
+    'src/pages/test/[id].vue': {
       routes:
-        | '/inbox'
-      views:
-        | never
-    }
-    'src/pages/settings.vue': {
-      routes:
-        | '/settings'
-        | '/settings/'
-        | '/settings/members'
-        | '/settings/notifications'
-        | '/settings/security'
-      views:
-        | 'default'
-    }
-    'src/pages/settings/index.vue': {
-      routes:
-        | '/settings/'
-      views:
-        | never
-    }
-    'src/pages/settings/members.vue': {
-      routes:
-        | '/settings/members'
-      views:
-        | never
-    }
-    'src/pages/settings/notifications.vue': {
-      routes:
-        | '/settings/notifications'
-      views:
-        | never
-    }
-    'src/pages/settings/security.vue': {
-      routes:
-        | '/settings/security'
+        | '/test/[id]'
       views:
         | never
     }
