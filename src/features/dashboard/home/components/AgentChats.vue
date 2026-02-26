@@ -40,10 +40,10 @@ const recentChats = [
           class="flex items-center justify-between border-b border-[#2A2A2A] pb-5"
         >
           <div class="flex items-center gap-2">
-            <Icon icon="mingcute:ai-fill" class="size-6 text-[#EEE]" />
+            <Icon icon="mingcute:ai-fill" class="size-5 text-[#EEE]" />
             <h3 class="text-[#EEE] text-base font-semibold">AI Agent</h3>
           </div>
-          <Icon icon="hugeicons:pencil-edit-02" class="size-6 text-[#B3B3B3]" />
+          <Icon icon="hugeicons:pencil-edit-02" class="size-5 text-[#B3B3B3]" />
         </div>
 
         <!-- recent chats -->
