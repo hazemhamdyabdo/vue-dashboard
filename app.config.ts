@@ -12,6 +12,7 @@ export default <NuxtUIOptions>{
       {
         "@/store": ["useStore"],
         "@unhead/vue": ["useHead"],
+        "@iconify/vue": ["Icon"],
       },
     ],
     dts: "auto-imports.d.ts",

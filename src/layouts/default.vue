@@ -3,7 +3,6 @@ import { computed } from "vue";
 import type { NavigationMenuItem } from "@nuxt/ui";
 import AppIcon from "@components/AppIcon.vue";
 import { IconName } from "@assets/icons";
-import { Icon } from "@iconify/vue";
 
 const links = [
   {

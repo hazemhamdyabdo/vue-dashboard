@@ -1,9 +1,13 @@
 <script setup lang="ts">
+import { HeroSection, AgentChats } from "./components";
 definePage({
   path: "/",
 });
 </script>
 
 <template>
-  <h1 class="text-2xl font-bold">HI , Mohamed What’s on your mind?</h1>
+  <main class="grid grid-cols-12 gap-4 w-full">
+    <AgentChats class="col-span-2" />
+    <HeroSection class="col-span-10" />
+  </main>
 </template>
